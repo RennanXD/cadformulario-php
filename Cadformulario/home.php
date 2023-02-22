@@ -3,15 +3,15 @@
         <title>Banco fafafas</title>
     </head>
    <?php
-    echo "Bem vindo ao banco fafas";
-    echo "Escolha o que deseja fazer";
+    echo "<h1>Bem vindo ao banco fafas</h1> ";
+    echo "Escolha o que deseja fazer <br>";
 ?>
     <form action="entrada.php">
-        <input type="subimt" value="Entrar">
+        <input type="submit" value="Entrar">
     </form>
 
     <form action="index.php">
-        <input type="subimit" value="Cadastro">
+        <input type="submit" value="Cadastro">
     </form>
 
 </hmtl>
